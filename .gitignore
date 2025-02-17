@@ -1,0 +1,26 @@
+# Ignore everything.
+*
+# But descend into directories.
+!*/
+
+# Ignore build directory that contains tmp binary files
+build/
+
+# Files
+!*.c
+!*.h
+!*.mi # memory images files
+!*.s  # assembly files
+!*.lst
+!Makefile
+
+!*.txt
+!*.md
+!*.sh
+
+!.gitignore
+
+# tests folder.
+!tests/*/*.*
+!examples/*/*.*
+!examples/
